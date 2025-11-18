@@ -1,7 +1,7 @@
-# MARS: Manifold Alignment for Language Model Security（代码复现）
+# MARS: Manifold Alignment for Language Model Security
 
 ## 项目概述
-- 本项目复现论文“Manifold Alignment for Language Model Security: A Machine Learning Approach to Jailbreak Defense”。
+- 本项目是论文“Manifold Alignment for Language Model Security: A Machine Learning Approach to Jailbreak Defense”的代码。
 - 目标：实现意图抽取（LoRA 微调）+ 语义对齐（Sinkhorn 最优传输）+ 下游安全分类器的完整训练与评估管线。
 - 特点：模块化 PyTorch 代码、混合精度（AMP）与梯度检查点、省显存训练、t-SNE 可视化、输出安全指标（TPR/FPR/ASR）。
 
